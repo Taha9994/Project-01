@@ -1,0 +1,170 @@
+﻿body {
+  background-color: #f6f5f5;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+section {
+  width: 100%;
+  height: 120vh;
+  background-image: url(web-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  background-color: #111;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  padding: 0px 5%;
+}
+nav ul {
+  display: flex;
+}
+nav ul li a {
+  margin: 30px;
+  font-family: myriad pro "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 700;
+}
+.logo {
+  font-family: RoadTest;
+  color: #fff;
+  font-size: 22px;
+}
+.services {
+  height: 580px;
+  background-color: #f6f5f5;
+  padding: 2% 10% 0px 10%;
+}
+.text p:nth-child(1) {
+  font-family: Calibri;
+  font-weight: bold;
+  color: #3e3d3d;
+  font-size: 30px;
+  line-height: 0px;
+}
+.text p:nth-child(2) {
+  font-family: Calibri;
+  font-weight: bold;
+  color: #3e3d3d;
+  font-size: 15px;
+  line-height: 5px;
+}
+.text p:nth-child(3) {
+  font-family: Calibri;
+  color: #7e7d7d;
+}
+.text {
+  width: 500px;
+  margin: 50px 0px;
+}
+.box-1,
+.box-2,
+.box-3 {
+  width: 300px;
+  height: 320px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
+}
+.Main-box {
+  display: flex;
+  justify-content: space-between;
+}
+.box-1 {
+  background-image: url(tom-morel.jpg);
+}
+.box-2 {
+  background-image: url(tom-morel.jpg);
+}
+.box-3 {
+  background-image: url(tom-morel.jpg);
+}
+.contact {
+  width: 100%;
+  height: 280px;
+  background-image: url(anna.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact p {
+  color: #fff;
+  font-size: 30px;
+  font-family: "Segoe Print";
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+.contact button {
+  width: 200px;
+  height: 40px;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+footer {
+  height: 300px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+footer p {
+  font-family: "Segoe Print";
+}
+footer p:nth-child(1) {
+  font-weight: bold;
+  color: #191919;
+  line-height: 10px;
+}
+footer p:nth-child(2) {
+  font-size: 16px;
+  color: #7e7d7d;
+  width: 600px;
+  text-align: center;
+}
+.icon a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e6e3e3;
+  margin: 20px 10px;
+  border-radius: 50%;
+}
+.icon {
+  display: flex;
+}
+.copy {
+  color: #565555;
+  font-size: 13px;
+  position: absolute;
+  left: 50%;
+  bottom: 10px;
+  transform: translateX(-50%);
+}
+.icon i {
+  color: #000000;
+}
+.icon a:hover {
+  background-color: #000000;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  transition: all ease 0.5s;
+}
